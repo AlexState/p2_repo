@@ -1,4 +1,4 @@
-#[proiect_2]
+# [proiect_2]
 
 Sistemul este compus din doua microcontrolere (AVR si DSP) care comunica intre ele printr-un
 port paralel (PF) de 8 biti. Microcontrolerul DSP preia de la un sistem extern comenzi sub forma unor
@@ -15,19 +15,19 @@ iesire (IO DSP)
 ![img_3.png](img/img_3.png)
 
 
-##Graf proces secvential AVR 
+## Graf proces secvential AVR 
 ![img.png](img/img.png)
 
-##Graf proces secvential  DSP
+## Graf proces secvential  DSP
 ![img_2.png](img/img_2.png)
 
-##Diagrama alg. Goertzel (pentru decodare Tonurilor)
+## Diagrama alg. Goertzel (pentru decodare Tonurilor)
 ![img_6.png](img/img_6.png)
 
-##Diagrama comunicatie 
+## Diagrama comunicatie 
 ![img_4.png](img/img_4.png)
 
-##Capturi din simulari
+## Capturi din simulari
 1. Rezulatul iesirii dupa ce dam fill from file din fisierul (sgn_out):
     Frecventa mai mare -> “1” Frecventa mai mica -> “0”
 ![img_5.png](img/img_5.png)
@@ -36,13 +36,13 @@ iesire (IO DSP)
 
 2. Exemple in urma codarii mai multor rezultate:
   
-1010-> 011011
+**1010-> 011011**
 ![img_7.png](img/img_7.png)
 
 
-0000-> 00
+**0000-> 00**
 ![img_8.png](img/img_8.png)
 
-1111-> 01110111
+**1111-> 01110111**
 ![img_9.png](img/img_9.png)
 
